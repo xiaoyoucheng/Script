@@ -14,7 +14,7 @@ hostname = apigate.zymk.cn
 Surge4 or Loon:
 
 [Script]
-http-response ^https:\/\/apigate\.zymk\.cn\/(zymk-getuserinfo-api\/v1\/getuserinfo|zymk-userpurchased-api\/v1\/userpurchased\/paychapters)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+http-response ^https:\/\/apigate\.zymk\.cn\/(zymk-getuserinfo-api\/v1\/getuserinfo|zymk-userpurchased-api\/v1\/userpurchased\/paychapters)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xiaoyoucheng/Script/master/QuantumultX/File/Zymh.js
 
 [MITM]
 hostname = apigate.zymk.cn
